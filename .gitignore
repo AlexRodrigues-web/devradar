@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Local project backups
+_backup_*
+devradar_local_archive_*
+# Environment files
+.env.*
+!.env.example
