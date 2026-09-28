@@ -1,4 +1,4 @@
-export type AppLanguage = "pt" | "en" | "es";
+export type { AppLanguage } from "./i18n";
 
 export type JobStatus =
   | "new"
@@ -12,6 +12,7 @@ export type JobStatus =
 
 export type JobSource =
   | "Remotive"
+  | "Arbeitnow"
   | "Remote OK"
   | "Adzuna"
   | "We Work Remotely"
@@ -48,3 +49,4 @@ export type Job = {
   gaps: string[];
   risks?: string[];
 };
+

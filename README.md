@@ -1,22 +1,30 @@
 # DevRadar
 
-Plataforma pessoal para centralizar oportunidades DEV e gerir pipeline de candidaturas.
+Aplicação full-stack para descobrir oportunidades de desenvolvimento e gerir o pipeline de candidaturas num único painel.
 
-## Fase atual
+## Funcionalidades
+- Agregação de vagas e oportunidades
+- Pesquisa e filtros por perfil
+- Scoring de compatibilidade
+- Guardados e candidaturas
+- Estados do pipeline e follow-up
+- Perfil e CV
+- Pesquisas guardadas
+- Métricas, notificações e automações
+- API interna para jobs, aplicações e utilizador
 
-- Dashboard inicial
-- Lista de vagas
-- Filtro por pesquisa
-- Filtro por estado
-- Match por stack
-- Pipeline: nova, guardada, candidatura feita, entrevista, rejeitada
-- Base preparada para conectores externos
+## Stack
+Next.js 16 · React 19 · TypeScript · Tailwind CSS 4 · MySQL · Node.js
 
-## Próximas fases
+## Desenvolvimento
+```bash
+npm install
+npm run dev
+npm run build
+```
 
-1. Conectores Remotive, Arbeitnow e The Muse
-2. Persistência local/DB
-3. Perfil de procura
-4. Scoring inteligente
-5. Exportação CSV/PDF
-6. Alertas e resumo diário
+## Estado
+Build de produção validado com sucesso em setembro de 2026. Snapshots locais, backups e variáveis de ambiente não são versionados.
+
+## Autor
+Alex Oliveira — AlexDevCode
